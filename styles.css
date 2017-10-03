@@ -1,8 +1,3 @@
-main {
-    max-width: 900px;
-    margin-left: 240px;
-}
-
 img {
     width: 100%;
 }
@@ -26,27 +21,72 @@ h3 {
     font-size: 40px;
 }
 
-ul {
+#wrapper {
+    padding-left: 200px;
+    transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper{
+    margin-left: -240px;
+    left: 250px;
+    width: 250px;
+    position: fixed;
+    height: 100%;
+    transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+.navbar {
+    display: none;
+}
+
+@media (max-width:767px) {
+
+    #wrapper {
+      padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+      left: 0;
+    }
+
+    #wrapper.active {
+      position: relative;
+      left: 250px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+      left: 250px;
+      width: 250px;
+      transition: all 0.4s ease 0s;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+}
+
+
+.sidebar-nav {
     list-style-type: none;
     background-color: white;
     margin: 0;
     padding: 10px;
     border-right: 1px solid #ccc;
-    overflow: hidden;
     position: fixed;
     top: 0;
     height: 100%;
 }
 
-li {
-    float: left;
-}
-
 li a {
     font-family: BodoniSvntytwoITCStd-Bold;
     font-size: 22px;
-    display: block;
     color: black;
+    margin-top: 8px;
 }
 
 .row {
@@ -57,10 +97,6 @@ li a {
 p {
     font-size: 14px;
     text-align: left;
-}
-
-.navigation {
-    float: left;
 }
 
 .logo {

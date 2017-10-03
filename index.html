@@ -33,29 +33,36 @@
 <body>
     <!-- BEGIN CONTAINER -->
     <div class="container-fluid">
-        <!-- BEGIN HEADER -->
-        <header role="banner">
-            <!-- BEGIN NAV -->
-            <nav class="navbar navbar-inverse navbar-fixed-left">
-
-            <ul class="nav navbar-nav">
-
-                <li><img src="img/mia.png" class="logo"></li>
+        <!-- BEGIN SIDEBAR -->
+        <div id ="wrapper">
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li><img src="img/mia.png" alt="" class="logo"></li>
                 <li><a href="#news">news</a></li>
                 <li><a href="#features">features</a></li>
-                <li><a href="#graphics &amp; illustrations">graphics</a></li>
+                <li><a href="#graphics &amp; illustrations">graphics <br>&amp; illustrations</a></li>
                 <li><a href="#about">about</a></li>
-            </ul></div>
-            <!-- END NAV -->
-        </header>
-        <!-- END HEADER -->
-        <!-- BEGIN MAIN -->
-        <main role="main">
-            <!-- BEGIN ARTICLE -->
-            <article>
-                    <!-- <h1>mia jade torres</h1>
-                    <h3>visual journalist</h3> -->
-                <!-- START NEWS ROW 1 -->
+            </ul>
+        </div>
+        <!-- START SIDEBAR TOGGLE -->
+        <nav class="navbar navbar-toggleable-md navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item"> <a class="nav-link" href="#news">news</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#graphics &amp; illustrations">graphics &amp; illustrations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">about</a></li>
+            </ul>
+        </div>
+        </nav>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN PAGE CONTENT -->
+        <div id="page-content-wrapper">
+            <div class="page-content">
+            <!-- START NEWS ROW 1 -->
                 <h2 id="news">news</h2>
                 <div class="container">
                 <div class="row">
@@ -76,7 +83,6 @@
                 <h2 id="features">features</h2>
                 <div class="container">
                 <div class="row">
-
                     <div class="col-md-3" style="padding: 0">
                     <img src="img/8.17.17_pg1.jpg" alt="8.17.17_pg1"><p class="caption">illustration, page design</p></div>
 
@@ -91,7 +97,7 @@
                 </div></div>
                 <!-- END FEATURES ROW 1 -->
                 <!-- START FEATURES ROW 2 -->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-3" style="padding: 0">
                     <img src="img/10.16.15.jpg" alt="10.16.15"><p class="caption">illustration, page design</p></div>
 
@@ -99,21 +105,42 @@
                     <img src="img/9.29.16.jpg" alt="9.29.16"><p class="caption">headline writing, art direction, page design</p></div>
 
                     <div class="col-md-3" style="padding: 0">
-                    <img src="img/10.20.16.jpg" alt="10.20.16"><p class="caption">illustration, page design</p></div>
+                    <img src="img/A09.jpg" alt="a09"><p class="caption">page design</p></div>
 
                     <div class="col-md-3" style="padding: 0">
                     <img src="img/4.11.17 cover.jpg" alt="4.11.17 cover"><p class="caption">headline writing, art direction, page design</p></div>
-                </div>
+                </div> -->
                 <!-- END FEATURES ROW 2 -->
+                <!-- START GRAPHICS ROW 1 -->
                 <h2 id="graphics &amp; illustrations">graphics &amp; illustrations</h2>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-6" style="padding: 0" class="gif">
+                    <img src="img/eclipse.gif" alt="eclipse"></div>
 
+                    <div class="col-md-6" style="padding: 0" class="gif">
+                    <img src="img/ocr-final.gif" alt="ocr"></div>
+                </div>
+                </div>
+                <!-- END GRAPHICS ROW 1 -->
+                <!-- START GRAPHICS ROW 2 -->
+                <!-- <div class="row">
+                    <div class="col-md-4" style="padding: 0">
+                    <img src="img/nyc illo.png" alt="nyc illo"></div>
+
+                    <div class="col-md-4" style="padding: 0">
+                    <img src="img/hc.png" alt="hc"></div>
+
+                    <div class="col-md-4" style="padding: 0">
+                    <img src="img/ldr.png" alt="ldr"></div>
+                </div></div> -->
+                <!-- END GRAPHICS ROW 2 -->
                 <h2 id="about">about</h2>
                 <p>I'm a senior at Indiana University where I'm currently working as the creative director of the Indiana Daily Student. This past summer I took part in the New York Times Student Journalism Institute as a designer. When I'm not in the newsroom, I can either be found baking vegan cookies, reading about astrology or wishing I knew how to skateboard.</p>
-            </article>
-            <!-- END ARTILCE -->
-        </main>
-        <!-- END MAIN -->
+        </div>
     </div>
+</div>
+</div>
     <!-- END CONTAINER -->
 </body>
 </html>
