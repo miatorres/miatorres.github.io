@@ -44,6 +44,47 @@ h3 {
     display: none;
 }
 
+.sidebar-nav {
+    list-style-type: none;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    top: 0;
+    height: 100%;
+}
+
+li a {
+    font-family: BodoniSvntytwoITCStd-Bold;
+    font-size: 22px;
+    color: black;
+    margin-top: 8px;
+}
+
+.row {
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+}
+
+.logo {
+    width: 150px;
+    padding-right: 30px;
+}
+
+.subhead {
+    font-size: 18px;
+}
+
+.bio-copy {
+    font-size: 18px;
+}
+
 @media (max-width:767px) {
     h1 {
         display: initial;
@@ -87,45 +128,4 @@ h3 {
         top: 10px;
     }
 
-}
-
-.sidebar-nav {
-    list-style-type: none;
-    background-color: white;
-    margin: 0;
-    padding: 10px;
-    border-right: 1px solid #ccc;
-    position: fixed;
-    top: 0;
-    height: 100%;
-}
-
-li a {
-    font-family: BodoniSvntytwoITCStd-Bold;
-    font-size: 22px;
-    color: black;
-    margin-top: 8px;
-}
-
-.row {
-    align-items: flex-start;
-    margin-top: 20px;
-}
-
-p {
-    font-size: 14px;
-    text-align: left;
-}
-
-.logo {
-    width: 150px;
-    padding-right: 30px;
-}
-
-.subhead {
-    font-size: 18px;
-}
-
-.bio-copy {
-    font-size: 18px;
 }
