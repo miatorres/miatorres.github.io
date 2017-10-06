@@ -2,6 +2,14 @@ img {
     width: 100%;
 }
 
+.gifbox {
+    position: relative;
+}
+
+.gif {
+    padding: 10px;
+}
+
 h1 {
     display: none;
 }
@@ -45,6 +53,7 @@ h3 {
 }
 
 .sidebar-nav {
+    text-decoration: none;
     list-style-type: none;
     background-color: white;
     margin: 0;
@@ -56,10 +65,15 @@ h3 {
 }
 
 li a {
+    text-decoration: none;
     font-family: BodoniSvntytwoITCStd-Bold;
     font-size: 22px;
     color: black;
-    margin-top: 8px;
+}
+
+li {
+    margin-top: 16px;
+    text-decoration: none;
 }
 
 .row {
@@ -70,6 +84,7 @@ li a {
 p {
     font-size: 14px;
     text-align: left;
+    text-decoration: none;
 }
 
 .logo {
@@ -79,16 +94,22 @@ p {
 
 .subhead {
     font-size: 18px;
+    margin-top: -14px;
 }
 
 .bio-copy {
     font-size: 18px;
 }
 
+.icon {
+    width: 2.5em;
+    margin: 11px;
+}
+
 @media (max-width:767px) {
     h1 {
-        display: initial;
-        font-family: BodoniSvntytwoITCStd-Bold;
+        display: inline-block;
+        font-family: 'BodoniSvntytwoITCStd-Bold';
         font-size: 60px;
         position: relative;
         top: 10px;
