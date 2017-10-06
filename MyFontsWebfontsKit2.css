@@ -1,0 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3460980, 2017-10-06T01:56:25-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BodoniSvntytwoITCStd-Book by ITC
+ * URL: https://www.myfonts.com/fonts/itc/bodoni-seventy-two/std-book/
+ * Copyright: Copyright (C) 1994 International Typeface Corporation. All Rights Reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3460980
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34cf74");
+
+  
+@font-face {font-family: 'BodoniSvntytwoITCStd-Book';src: url('webfonts/34CF74_0_0.eot');src: url('webfonts/34CF74_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34CF74_0_0.woff2') format('woff2'),url('webfonts/34CF74_0_0.woff') format('woff'),url('webfonts/34CF74_0_0.ttf') format('truetype');}
+ 

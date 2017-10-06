@@ -16,17 +16,18 @@ h1 {
 
 .subhead-mobile {
     display: none;
+    font-family: 'BodoniSvntytwoITCStd-Book'
 }
 
 h2 {
-    font-family: BodoniSvntytwoITCStd-Bold;
+    font-family: 'BodoniSvntytwoITCStd-Bold';
     font-size: 30px;
     margin-top: 40px;
     text-align: left;
 }
 
 h3 {
-    font-family: BodoniSvntytwoITCStd-Bold;
+    font-family: 'BodoniSvntytwoITCStd-Bold';
     font-size: 40px;
 }
 
@@ -66,7 +67,7 @@ h3 {
 
 li a {
     text-decoration: none;
-    font-family: BodoniSvntytwoITCStd-Bold;
+    font-family: 'BodoniSvntytwoITCStd-Bold';
     font-size: 22px;
     color: black;
 }
@@ -93,6 +94,7 @@ p {
 }
 
 .subhead {
+    font-family: 'BodoniSvntytwoITCStd-Book';
     font-size: 18px;
     margin-top: -14px;
 }
@@ -144,7 +146,7 @@ p {
 
     .subhead-mobile {
         display: initial;
-        font-size: 24px;
+        font-size: 28px;
         position: relative;
         top: 10px;
     }
