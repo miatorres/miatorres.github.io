@@ -108,6 +108,11 @@ p {
     margin: 11px;
 }
 
+.illo {
+    padding: 40px;
+    position: relative;
+}
+
 @media (max-width:767px) {
     h1 {
         display: inline-block;
