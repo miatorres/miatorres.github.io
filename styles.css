@@ -174,10 +174,11 @@ p {
     .name-mobile {
         width: 70vw;
         position: relative;
+        margin-bottom: -5vh;
     }
 
     .top-spacer {
-      height:33vh;
+      height:32vh;
     }
 
     #top {
