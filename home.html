@@ -62,16 +62,25 @@
             </ul>
         </div>
         <!-- SIDEBAR TOGGLE -->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item"> <a class="nav-link" href="#news">news</a></li>
-                <li class="nav-item"><a class="nav-link" href=#magazine>magazine</a></li>
-                <li class="nav-item"><a class="nav-link" href="#graphics &amp; illustrations">graphics &amp; illustrations</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about me">about me</a></li>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#news">news</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href=#magazine>magazine</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#graphics &amp; illustrations">graphics &amp; illustrations</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#about me">about me</a>
+                </li>
             </ul>
             </div>
         </nav>
@@ -79,13 +88,21 @@
         <!-- BEGIN PAGE CONTENT -->
         <div id="page-content-wrapper">
             <div class="page-content">
+                <!-- START TOP SECTION -->
+                <!-- CREDIT: https://getbootstrap.com/docs/4.0/utilities/display/ -->
+                <div class="container-fluid">
+                    <section id="top">
+                        <div class="top-spacer"></div>
+                        <img src="img/mia.png" alt="" class="name-mobile d-block d-md-none">
+                        <p class="subhead-mobile">visual journalist</p>
+                    </section>
+                </div>
             <!-- START NEWS ROW 1 -->
-            <center><h1>mia jade torres</h1><br><p class="subhead-mobile">visual journalist</p></center>
-            <h2 id="news">news</h2>
             <div class="container">
+                <h2 id="news">news</h2>
                 <div class="row">
                     <div class="col-md-3" style="padding: 1">
-                    <a href="img/2.23.16.pdf"><img src="img/2.23.16.jpg" alt=""></a><p class="caption">page design</p></div>
+                    <a href="img/2.23.16.pdf"><img src="img/2.23.16.jpg" alt="2.23.16"></a><p class="caption">page design</p></div>
 
                     <div class="col-md-6" style="padding: 1">
                     <a href="img/9.21.17.pdf"><img src="img/9.21.17.jpg" alt=""></a><p class="caption">led production of 12-page special investigations section, designed graphics and pages</p></div>
@@ -122,8 +139,8 @@
                     <a href="img/1.13.16.pdf"><img src="img/1.13.16.jpg" alt=""></a><p class="caption">page design</p></div>
                 </div>
                 <!-- END NEWS ROW 3 -->
-            <h2 id="magazine">magazine</h2>
             <div class="container">
+                <h2 id="magazine">magazine</h2>
                 <div class="row">
                     <div class="col-md-3" style="padding: 1">
                     <a href="img/4.pdf"><img src="img/4.jpg" alt=""></a><p class="caption">illustration, page design</p></div>
@@ -137,8 +154,8 @@
             </div>
                 <!-- END FEATURES ROW 2 -->
                 <!-- START GRAPHICS ROW 1 -->
-            <h2 id="graphics &amp; illustrations">graphics &amp; illustrations</h2>
             <div class="container">
+            <h2 id="graphics &amp; illustrations">graphics &amp; illustrations</h2>
                 <div class="row">
                     <div class="col-md-4" style="padding: 1" class="gif">
                     <img src="img/eclipse.gif" alt="eclipse"><p>social gif to accompany above solar eclipse guide</p></div>
@@ -163,6 +180,7 @@
                     <img src="img/ldr.png" alt="ldr"><p>illustration for story about maintaining long-distance relationships</p></div>
                 </div>
                 <!-- END GRAPHICS ROW 2 -->
+                <div class="container">
                 <h2 id="about me">about me</h2>
                 <div class="row">
                 <div class="col-md-12">
@@ -179,13 +197,12 @@
                         <img class="icon" src="img/insta.png" alt=""></a>
                     </div>
                     </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     </div>
-</div>
-</div>
     <!-- END CONTAINER -->
 </body>
 </html>
