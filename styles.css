@@ -132,6 +132,10 @@ p {
     color: #8E8E8E;
 }
 
+.caption.digi {
+    margin-top: 10px;
+}
+
 @media (max-width:767px) {
     h1 {
         display: inline-block;
