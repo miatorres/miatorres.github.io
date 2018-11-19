@@ -172,14 +172,14 @@ p {
 
     .subhead-mobile {
         display: initial;
-        font-size: 10vw;
+        font-size: 8vw;
         position: relative;
     }
 
     .name-mobile {
-        width: 70vw;
+        width: 50vw;
         position: relative;
-        margin-bottom: -6vh;
+        margin-bottom: -2vh;
     }
 
     .top-spacer {
