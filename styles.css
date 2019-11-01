@@ -14,14 +14,33 @@ h1 {
     display: none;
 }
 
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  /* transform: rotate(-90deg); */
+  font-family: monospace;
+}
+
 .subhead-mobile {
     display: none;
     font-family: 'BodoniSvntytwoITCStd-Book'
 }
 
+hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
 h2 {
-    font-family: 'BodoniSvntytwoITCStd-Bold';
-    font-size: 30px;
+    font-family: "Messapia";
+    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 20px;
     margin-top: 40px;
     text-align: left;
 }
@@ -29,6 +48,44 @@ h2 {
 h3 {
     font-family: 'BodoniSvntytwoITCStd-Bold';
     font-size: 40px;
+}
+
+h6 {
+    font-family: "Messapia";
+    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 80px;
+}
+
+h7 {
+    font-family: "Messapia";
+    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 20px;
+
+}
+
+h8 {
+    font-family: "Messapia";
+    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 25px;
+    transform: skewY(10deg);
+}
+
+h9 {
+    font-family: "Messapia";
+    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 50px;
 }
 
 #wrapper {
@@ -47,7 +104,12 @@ h3 {
 
 #page-content-wrapper {
     width: 100%;
+    padding: 5%;
 }
+
+/* .container-fluid {
+    background-color: snow;
+} */
 
 .navbar {
     display: none;
@@ -76,14 +138,15 @@ a:link {
 }
 
 a:hover {
-    color: #AED6F1;
+    color: peachpuff;
 }
 
 li a {
     text-decoration: none;
-    font-family: 'BodoniSvntytwoITCStd-Bold';
-    font-size: 22px;
-    color: black;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: normal;
+    /* color: black; */
 }
 
 li {
@@ -93,13 +156,14 @@ li {
 
 .row {
     align-items: flex-start;
-    margin-top: 20px;
+    margin-top: 5%auto;
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     text-align: left;
     text-decoration: none;
+    font-family: monospace;
 }
 
 .logo {
@@ -181,16 +245,25 @@ p {
     }
 
     .name-mobile {
-        width: 50vw;
+        width: 80vw;
         position: relative;
         margin-bottom: -2vh;
     }
 
     .top-spacer {
-      height:25vh;
+      height:29vh;
+    }
+
+    .mid-spacer {
+      height:7vh;
     }
 
     #top {
        height:95vh;
     }
+
+    .desktop-type {
+        display: none;
+    }
+
 }
