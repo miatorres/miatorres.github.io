@@ -59,8 +59,9 @@ hr {
 }
 
 h2 {
-    font-family: "Messapia";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2");
+    font-family: "messapiaregular";
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -69,14 +70,10 @@ h2 {
     text-align: left;
 }
 
-h3 {
-    font-family: 'BodoniSvntytwoITCStd-Bold';
-    font-size: 40px;
-}
-
 h6 {
-    font-family: "Messapia";
-    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-family: "messapiaregular";
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -84,8 +81,9 @@ h6 {
 }
 
 h7 {
-    font-family: "Messapia";
-    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-family: "messapiaregular";
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -94,8 +92,9 @@ h7 {
 }
 
 h8 {
-    font-family: "Messapia";
-    src: url("https://type.cargo.site/Messapia/MessapiaRegular-3.woff?Expires=1572370340&Signature=R4J844nElxaSPFj5DJlr5eSShE9HTuG5rNUYKC60ZFTDKgWuYkfnNUp2wBTASoACA8Zt0INOHB5n4PWc2HePfpESAMr5HA8HzDViG36S9jP-UKJPVF-bbwN7wYrmSV1W8CfCp-fPJ0kJss-CbhRI~Sn80y3KOyfexiw663L8t4psST883-Ke968QVxo1YMEUYitnlc6YGacLiMMO9ElsH8B6uN72ru81ED0N7rYjX4NZFkpm9nGFO-aLhSNAxjl2WoosM5xaNUjavk7XuVjNZieQh1ceeF2PXAvXiwfRbH-xSQEWQXQtGWGxL9WQlN0hHL1QFVvphCOh95N4MFyCjA__&Key-Pair-Id=APKAJ6UHBOV2NWJLY2BQ") format("woff");
+    font-family: "messapiaregular";
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
