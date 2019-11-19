@@ -18,8 +18,6 @@
 
 h1 {
     font-family: "messapiaregular";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -42,14 +40,8 @@ img {
   position: absolute;
   top: 8px;
   left: 16px;
-  /* transform: rotate(-90deg); */
   font-family: monospace;
 }
-
-/* .subhead-mobile {
-    display: none;
-    font-family: 'BodoniSvntytwoITCStd-Book'
-} */
 
 hr {
     margin-top: 0;
@@ -60,8 +52,6 @@ hr {
 
 h2 {
     font-family: "messapiaregular";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -72,8 +62,6 @@ h2 {
 
 h6 {
     font-family: "messapiaregular";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -82,8 +70,6 @@ h6 {
 
 h7 {
     font-family: "messapiaregular";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
@@ -93,8 +79,6 @@ h7 {
 
 h8 {
     font-family: "messapiaregular";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
