@@ -237,7 +237,7 @@ p {
         top: 0;
         z-index: 99999;
         background-color: snow;
-        padding-top: 2vh;
+        padding: 3vh;
     }
 
     .subhead-mobile {
