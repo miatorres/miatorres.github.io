@@ -256,12 +256,12 @@ p {
     .name-mobile {
         width: 80vw;
         position: relative;
-        margin-bottom: 1vh;
+        margin-bottom: -1vh;
     }
 
-    /* .top-spacer {
+    .top-spacer {
       height:2vh;
-    } */
+    }
 
     .mid-spacer {
       height:6vh;
