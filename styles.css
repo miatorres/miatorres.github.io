@@ -215,6 +215,12 @@ p {
     color: #8E8E8E;
 }
 
+.footer {
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
+
 .caption.digi {
     margin-top: 10px;
 }
@@ -273,7 +279,7 @@ p {
     }
 
     .top-spacer {
-      height:5vh;
+      height:2vh;
     }
 
     .mid-spacer {
@@ -281,7 +287,7 @@ p {
     }
 
     #top {
-       height:60vh;
+       height:50vh;
     }
 
     .desktop-type {
