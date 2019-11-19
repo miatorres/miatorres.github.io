@@ -249,7 +249,7 @@ p {
     .name-mobile {
         width: 80vw;
         position: relative;
-        margin-bottom: -2vh;
+        margin-bottom: -1vh;
     }
 
     .top-spacer {
@@ -261,7 +261,7 @@ p {
     }
 
     #top {
-       height:65vh;
+       height:60vh;
     }
 
     .desktop-type {
