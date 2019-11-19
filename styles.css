@@ -29,10 +29,6 @@ img {
     padding: 10px;
 }
 
-h1 {
-    display: none;
-}
-
 .top-left {
   position: absolute;
   top: 8px;
@@ -98,7 +94,7 @@ h8 {
     transform: skewY(10deg);
 }
 
-h9 {
+h1 {
     font-family: "Messapia";
     src: url("https://miatorres.github.io/fonts/Messapia-Bold.woff2") format("woff2");
     font-style: normal;
