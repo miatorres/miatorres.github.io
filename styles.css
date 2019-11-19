@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'messapiabold';
     src: url('https://miatorres.github.io/fonts/Messapia-Bold.woff2') format('woff2'),
-         url('https://miatorres.github.io/fonts/Messapia-Bold.woff') format('woff'),
+         url('https://miatorres.github.io/fonts/Messapia-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 }
 
 h1 {
-    font-family: "Messapia";
+    font-family: "messapiaregular";
     src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
     url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
