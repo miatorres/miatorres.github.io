@@ -55,7 +55,7 @@ h2 {
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 40px;
     text-align: left;
 }
@@ -256,7 +256,7 @@ p {
     .name-mobile {
         width: 80vw;
         position: relative;
-        margin-bottom: -2vh;
+        /* margin-bottom: 1vh; */
     }
 
     /* .top-spacer {
