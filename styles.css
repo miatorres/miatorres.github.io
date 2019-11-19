@@ -171,13 +171,6 @@ p {
     padding-right: 30px;
 }
 
-/* .subhead {
-    font-family: 'BodoniSvntytwoITCStd-Book';
-    font-size: 21px;
-    margin-top: -14px;
-    margin-bottom: 40px;
-} */
-
 .bio-copy {
     font-size: 18px;
 }
@@ -256,7 +249,7 @@ p {
     .name-mobile {
         width: 80vw;
         position: relative;
-        margin-bottom: -2vh;
+        margin-bottom: -1vh;
     }
 
     .top-spacer {
@@ -268,7 +261,7 @@ p {
     }
 
     #top {
-       height:52vh;
+       height:60vh;
     }
 
     .desktop-type {
