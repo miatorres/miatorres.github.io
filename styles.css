@@ -96,7 +96,8 @@ h8 {
 
 h1 {
     font-family: "Messapia";
-    src: url("https://miatorres.github.io/fonts/Messapia-Bold.woff2") format("woff2");
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
