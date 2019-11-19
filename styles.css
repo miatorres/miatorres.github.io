@@ -16,6 +16,15 @@
     font-style: normal;
 }
 
+h1 {
+    font-family: "Messapia";
+    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
+    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+    font-size: 50px;
+}
 
 img {
     width: 100%;
@@ -94,15 +103,7 @@ h8 {
     transform: skewY(10deg);
 }
 
-h1 {
-    font-family: "Messapia";
-    src: url("https://miatorres.github.io/fonts/Messapia-Regular.woff2") format("woff2"),
-    url("https://miatorres.github.io/fonts/Messapia-Regular.woff") format("woff");
-    font-style: normal;
-    font-weight: normal;
-    unicode-range: U+0000-DFFF, U+F900-FFFD;
-    font-size: 50px;
-}
+
 
 #wrapper {
     padding-left: 200px;
