@@ -108,7 +108,7 @@ h8 {
 }
 
 .container-fluid {
-    background-color: snow;
+    background-color: white;
 }
 
 .navbar {
@@ -118,7 +118,7 @@ h8 {
 .sidebar-nav {
     text-decoration: none;
     list-style-type: none;
-    background-color: snow;
+    background-color: white;
     margin: 0;
     padding: 10px;
     border-right: 1px solid #ccc;
@@ -236,7 +236,7 @@ p {
         /* position: sticky; */
         top: 0;
         z-index: 99999;
-        background-color: snow;
+        background-color: white;
         padding: 3vh;
     }
 
