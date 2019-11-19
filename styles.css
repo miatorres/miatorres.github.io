@@ -278,16 +278,16 @@ p {
         margin-bottom: -2vh;
     }
 
-    .top-spacer {
+    /* .top-spacer {
       height:2vh;
-    }
+    } */
 
     .mid-spacer {
       height:6vh;
     }
 
     #top {
-       height:50vh;
+       height:45vh;
     }
 
     .desktop-type {
