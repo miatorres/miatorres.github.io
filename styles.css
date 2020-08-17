@@ -169,6 +169,13 @@ img {
    margin-right: auto;
 }
 
+.print {
+  display: block;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .col-md-6 {
     padding: 1%;
 }
