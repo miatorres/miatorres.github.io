@@ -202,12 +202,11 @@ img {
 a {
     text-decoration: underline;
     color: black;
-    font-weight: normal;
-}
+    font-weight: bold;
+  }
 
 a:link {
-    text-decoration: none;
-
+    text-decoration:none;
 }
 
 a:hover {
@@ -239,10 +238,6 @@ p {
     text-decoration: none;
     font-family: monospace;
 }
-
-/* #seemore {
-  font-size: 10px;
-} */
 
 .caption {
   font-size: 15px;
