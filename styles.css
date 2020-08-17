@@ -239,6 +239,10 @@ p {
     font-family: monospace;
 }
 
+#seemore {
+  font-size: 10px;
+}
+
 .caption {
   font-size: 15px;
   width: 65vw;
