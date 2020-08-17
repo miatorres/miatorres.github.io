@@ -21,12 +21,11 @@
 
 
 .smiley {
-  font-size: 35px;
   right: 0;
-  width: 35%;
-  margin-top: -2vh;
+  width: 30px;
+  margin-top: 0vh;
   float: right;
-  margin-right: 1vw;
+  margin-right: 1.5vw;
   position: fixed;
   z-index: 6;
   text-align-last: right;
@@ -287,12 +286,11 @@ p {
   }
 
   .smiley {
-    font-size: 35px;
     right: 0;
-    width: 35%;
-    /* margin-top: -10vw; */
+    width: 30px;
+    margin-top: 0vw;
     float: right;
-    margin-right: 1vw;
+    margin-right: 2vw;
     position: fixed;
     top: 2vw;
     z-index: 6;
