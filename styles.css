@@ -267,6 +267,13 @@ p {
 
 @media (max-width:767px) {
 
+.rotate img:hover{
+-webkit-transform: none;
+-ms-transform: none;
+transform: none;
+transition: none;
+}
+
 .welcome {
   display: block;
   width: 90vw;
