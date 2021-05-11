@@ -16,6 +16,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'maziusextraitalic';
+    src: url('https://miatorres.github.io/fonts/MAZIUSREVIEW20.09-Extraitalic.woff2') format('woff2'),
+         url('https://miatorres.github.io/fonts/MAZIUSREVIEW20.09-Extraitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* THAT NEW NEW */
 
@@ -62,7 +70,7 @@ ul {
 li a {
     text-decoration: none;
     font-family: "maziusregular";
-    font-size: 25px;
+    font-size: 30px;
     font-weight: normal;
     /* color: black; */
 }
@@ -70,7 +78,7 @@ li a {
 li {
   text-decoration: none;
   font-family: "maziusregular";
-  font-size: 25px;
+  font-size: 30px;
   /* font-weight: bold; */
   list-style: none;
 }
@@ -86,7 +94,7 @@ li {
 
 .bio {
   /* transform: rotate(-5deg); */
-  font-size: 15px;
+  font-size: 17px;
   width: 34vw;
   position: relative;
   margin-top: 2vw;
@@ -96,7 +104,7 @@ li {
 
 .description {
   /* transform: rotate(-5deg); */
-  font-size: 14px;
+  font-size: 16px;
   width: 60vw;
   position: relative;
   /* margin-top: 2vw; */
@@ -139,7 +147,7 @@ h2 {
     font-style: normal;
     font-weight: normal;
     unicode-range: U+0000-DFFF, U+F900-FFFD;
-    font-size: 30px;
+    font-size: 35px;
     position: fixed;
     z-index: 6;
     margin-left: -6vw;
@@ -225,11 +233,11 @@ li a:hover {
     /* color: black; */
     font-weight: normal;
     color: inherit;
-    font-family: "maziusitalic";
+    font-family: "maziusextraitalic";
 }
 
 h1 a:hover {
-  font-family: "maziusitalic";
+  font-family: "maziusextraitalic";
   color: inherit;
 }
 
@@ -252,25 +260,28 @@ a:active {
 
 
 p {
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
     text-decoration: none;
     font-family: 'Cabin', sans-serif;
 }
 
 .caption {
-  font-size: 15px;
-  width: 65vw;
+  font-size: 14px;
+  /* width: 65vw; */
   position: relative;
-  /* font-style: italic; */
+  color: Silver;
+  font-family: 'Cabin', sans-serif;
+  padding-top: .5vw;
+  text-align: center;
   /* margin-left: -.5vw; */
 }
 
 .container-fluid {
     /* background-color: #FCF9F9; */
     /* padding: 2vw; */
-    margin-left: 7vw;
-    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-top: 4vw;
     margin-bottom: 5vw;
 }
 
@@ -340,7 +351,7 @@ transition: none;
   }
 
   .description {
-    font-size: 14px;
+    font-size: 16px;
     width: 90vw;
     position: relative;
     margin-left: -.8vw;
@@ -348,7 +359,7 @@ transition: none;
   }
 
   .description.top {
-    font-size: 14px;
+    font-size: 16px;
     width: 90vw;
     position: relative;
     margin-top: 3vw;
