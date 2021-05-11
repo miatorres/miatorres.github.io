@@ -448,8 +448,8 @@ transition: none;
 
       color: Silver;
       font-family: 'Cabin', sans-serif;
-      padding-top: 2vw;
-      padding-bottom: .5vw;
+      padding-top: 1vw;
+      padding-bottom: 3vw;
       text-align: center;
       /* margin-left: -.5vw; */
     }
