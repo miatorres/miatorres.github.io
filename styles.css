@@ -360,7 +360,7 @@ transition: none;
   }
 
   .smiley {
-    display: block;
+    display: none;
     right: 0;
     width: 7.5vw;
     margin-top: 0vw;
