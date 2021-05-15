@@ -28,7 +28,7 @@
 /* THAT NEW NEW */
 
 .smiley {
-  display: none;
+  /* display: none; */
   right: 0;
   width: 30px;
   margin-top: 0vh;
@@ -269,7 +269,7 @@ a:active {
   text-decoration: none;
   color: none;
   font-weight: normal;
-  font-style: none;
+  font-style: normal;
 }
 
 
@@ -301,9 +301,9 @@ p {
 .container-fluid {
     /* background-color: #FCF9F9; */
     /* padding: 2vw; */
-    margin-left: 4vw;
-    margin-top: 4vw;
-    margin-bottom: 5vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
 #mobilename {
