@@ -28,7 +28,7 @@
 /* THAT NEW NEW */
 
 .smiley {
-  /* display: none; */
+  display: none;
   right: 0;
   width: 35px;
   margin-top: 0vh;
@@ -361,16 +361,16 @@ transition: none;
 
   .smiley {
     display: none;
-    right: 0;
+    /* right: 0;
     width: 7.5vw;
     margin-top: 0vw;
     float: right;
     margin-right: 3vw;
     position: fixed;
-    top: 5vw;
+    top: 5vw; */
     /* margin-top: 5vw; */
-    z-index: 6;
-    text-align-last: right;
+    /* z-index: 6;
+    text-align-last: right; */
   }
 
   .description {
