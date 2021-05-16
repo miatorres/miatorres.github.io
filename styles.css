@@ -181,7 +181,7 @@ img {
 
 .wavy {
   width: 100%;
-  padding-bottom: 2vw;
+  padding-bottom: 1.5vw;
 }
 
 #baby {
@@ -314,6 +314,11 @@ p {
 
 @media (max-width:767px) {
 
+  .wavy {
+    width: 100%;
+    margin-bottom: 2.5vw;
+  }
+
 .container-fluid {
 /* background-color: #FCF9F9; */
 /* padding: 2vw; */
@@ -386,8 +391,9 @@ transition: none;
     font-size: 16px;
     width: 90vw;
     position: relative;
-    margin: 1vw;
-    margin-top: -4.5vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+    margin-top: -20px;
     margin-left: -4vw;
     line-height: 1.3;
   }
