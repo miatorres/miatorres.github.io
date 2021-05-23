@@ -55,6 +55,7 @@ a {
   position: fixed;
   z-index: 6;
   text-align-last: right;
+  text-align: -webkit-right;
 }
 
 ul {
