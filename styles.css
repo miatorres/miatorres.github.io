@@ -48,8 +48,8 @@ a {
 .categories {
   line-height: 1.1;
   right: 0;
-  width: 27%;
-  bottom: 1vw;
+  width: 28%;
+  bottom: 0vw;
   float: right;
   margin-right: 2vw;
   position: fixed;
